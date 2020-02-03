@@ -1,1 +1,72 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | GGJ2020</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/WebGL.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  
+  
+  <body style="background-color:#111111;">
+  <!-- TODO Add a cool image here
+  <img src="Hearth-and-Home-Logo.png" style="height:120px; width:120px; padding-left: calc(50% - 60px)">
+    </img>
+    <div style="text-align:center; font-size: 0.9em; color: white">
+      Global Game Jam 2020
+    </div> -->
+    <br>
+    <br>
+
+  
+    <div class="webgl-content" style="top:490px">
+      <div id="gameContainer" style="width: 1280px; height: 720px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">GGJ2020</div>
+      </div>
+    </div>
+    
+    <!-- Web design is hard :I -->
+    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+
+    <div style="font-family: Arial; text-align:left; color: white; padding-left: calc(50% - 480px); width: 960px;">
+    
+    <p> A thrilling simulator of what its like to play a support for an overly ambitious dungeon group! Don't let your nerves of steel be fettered by the dangerous actions of your teammates.... You're here for one reason and one reason only: to heal your friends both physically and emotionally. Good Luck! </p>
+
+
+    <p>
+        Credits: 
+        <ul>
+            <li>Team Lead, UI, programming: Bryan Tai</li>
+            <li>Programming: Cole Beernaerts</li>
+            <li>2D Art: Emily Hjermstad</li>
+            <li>Programming: Michael Wright</li>
+            <li>Programming: Shawn Luo</li>
+            <li>3D Modeling, Lighting: Ross Garrad</li>
+            <li>Music: Cedric Cook</li>
+            <li>SFX: Yann Joslin</li>
+            <li>SFX: Luis Fernando Garza</li>
+
+        </ul>
+    </p>
+    
+    <p> <a href="https://globalgamejam.org/2020/games/support-simulator-3"> Global Game Jam 2020 link </a> <br>
+    <a href="https://github.com/BryanTai/GGJ2020"> GitHub Project link </a> <br>
+
+    </p>
+    
+    </div>
+    
+  </body>
+</html>
